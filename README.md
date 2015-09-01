@@ -6,8 +6,8 @@
 .lineclamp {
 
   /* config */
-  line-height: 1.25;
-  height: 2.5em;
+  line-height: 1.5;
+  height: 3em;
   background-color: #fff;
   /* config end */
 
