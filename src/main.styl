@@ -1,0 +1,25 @@
+lineclamp()
+  position relative
+  padding-right 1em
+  overflow hidden
+  &:before
+    content "..."
+    position absolute
+    right 0
+    bottom 0
+    display inline-block
+    width 1em
+  &:after
+    content ""
+    position relative
+    right -1em
+    float right
+    width 1em
+    height 100%
+    background-color inherit
+
+.lineclamp
+  line-height 1.5
+  height 3em // means 2 lines
+  background-color white // required
+  lineclamp()

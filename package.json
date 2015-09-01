@@ -1,0 +1,15 @@
+{
+  "name": "lineclamp",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Tomohiro Kasuga <tk@internets.co.jp>",
+  "scripts": {
+    "start": "gulp"
+  },
+  "devDependencies": {
+    "gulp": "~3.9.0",
+    "gulp-jade": "~1.0.1",
+    "gulp-stylus": "~2.0.5",
+    "gulp-webserver": "~0.9.1"
+  }
+}

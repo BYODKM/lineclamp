@@ -1,17 +1,11 @@
-# .lineclamp
-
-> text-overflow: ellipsis with multiple lines.
-
-```css
 .lineclamp {
-  line-height: 1.25; /* required */
-  height: 2.5em; /* required */
-  background-color: #fff; /* required */
+  line-height: 1.5;
+  height: 3em;
+  background-color: #fff;
   position: relative;
   padding-right: 1em;
   overflow: hidden;
 }
-
 .lineclamp:before {
   content: "...";
   position: absolute;
@@ -20,7 +14,6 @@
   display: inline-block;
   width: 1em;
 }
-
 .lineclamp:after {
   content: "";
   position: relative;
@@ -30,8 +23,3 @@
   height: 100%;
   background-color: inherit;
 }
-```
-
-## Test
-
-See the [result](http://byodkm.github.io/lineclamp/test/).
