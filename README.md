@@ -4,9 +4,13 @@
 
 ```css
 .lineclamp {
-  line-height: 1.25; /* required */
-  height: 2.5em; /* required */
-  background-color: #fff; /* required */
+
+  /* config */
+  line-height: 1.25;
+  height: 2.5em;
+  background-color: #fff;
+  /* config end */
+
   position: relative;
   padding-right: 1em;
   overflow: hidden;
@@ -35,3 +39,8 @@
 ## Test
 
 See the [result](http://byodkm.github.io/lineclamp/test/).
+
+## Supported Browsers
+
+- IE 9+
+- Others
