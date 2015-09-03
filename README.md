@@ -2,6 +2,10 @@
 
 > text-overflow: ellipsis with multiple lines.
 
+![Screenshot](screenshot.png)
+
+## How did you do it?
+
 ```css
 .lineclamp {
 
@@ -40,9 +44,11 @@
 
 See the [result](http://byodkm.github.io/lineclamp/test/).
 
-![Screenshot](screenshot.png)
-
-## Supported Browsers
+## Browser Support
 
 - IE 9+
 - Others
+
+## License
+
+Public Domain
