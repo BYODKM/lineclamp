@@ -40,6 +40,8 @@
 
 See the [result](http://byodkm.github.io/lineclamp/test/).
 
+![Screenshot](screenshot.png)
+
 ## Supported Browsers
 
 - IE 9+
